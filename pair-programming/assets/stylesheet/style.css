@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* general */
+
+a {
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    background-color: #644579 ;
+    padding: 20px;
+}
+
+.parent {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.logo a {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.menu a {
+    color: greenyellow;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+/* hero  */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.hero {
+    background-color: #644579;
+}
+.heading {
+    width: 42%;
+    font-size: 25px;
+    color: white;
+    font-weight: 800;
+}
+.para {
+    width: 42%;
+    font-size: large;
+    color: thistle;
+}
+.btn {
+    color: honeydew;
+    padding: 20px 30px;
+    background-color: rgb(65, 206, 65) ;
+    border: 1px solid green;
+    border-radius: 15px;
+}
+.para p {
+    padding-bottom: 20px;
+}
+span {
+    text-transform: uppercase;
+}
+
+/* second  */
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.text {
+    width: 42%;
+    padding: 30px ;
+    font-size: medium;
+    font-weight: 400;
+}
+h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #666666;
+}
+.new {
+    background-color: transparent;
+    color: #666666;
+    border: 1px solid #666666;
+}
+.list {
+    width: 42%;
+    padding: 30px;
+}
+.text p {
+    padding-bottom: 30px;
+}
+.border {
+    border-bottom: 1px solid #666666;
+}
+
+/* third  */
+.third {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-between;
+}
+.image {
+    width: 50%;
+}
+.three {
+    background-color: #b1b0b0;
+}
+.color {
+    background-color: aliceblue;
+    /* width: 100%; */
+   
+}
+.right {
+    width: 50%;
+}
+.fourth {
+    display: flex;
+    justify-content: space-between;
+  
+}
+form {
+    width: 42%;
+    padding-bottom: 50px;
+}
+.four {
+    border-bottom: 1px solid #666666;
+}
+.b {
+    width: 44%;
+}

@@ -1,0 +1,36 @@
+
+
+/* container */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* image */
+
+
+img {
+    width: 275px;
+    height: 183px;
+    border: 1px solid crimson;
+    box-shadow: 5px 5px 10px 6px rgb(182, 76, 97);
+}
+
+/* parent */
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* child */
+
+.child {
+    /* justify-content: flex-start; */
+    margin: 10px;
+    /* flex-wrap: wrap; */
+    width: 30%;
+    text-align: center;
+    /* border: 1px solid chartreuse; */
+}
